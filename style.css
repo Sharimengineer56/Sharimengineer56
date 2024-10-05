@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 100%;
+justify-content: space-between;
+padding: 20px;
+color: whitesmoke;
+}
+.nav-links{
+display: flex;
+align-items: center;
+}
+.nav-links li{
+    margin: 0 40px;
+}
+header{
+    width: 100VW;
+    height: 100vh;
+    background-image: url('./fat.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+   
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: crimson;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn-n{
+    padding: 8px 15px;
+    background: crimson;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.ctn-1{
+    padding: 8px 15px;
+    background: crimson;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+   
+
+@media only screen and (max-width:850px){
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+       
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: black;
+        margin-top: -900px;
+        transition: 0.5s;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+}

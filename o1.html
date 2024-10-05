@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEMOSYNTHETIC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+       <h1 class="logo">AN AQUATIC CHEMOSYNTHETIC WORLD</h1>
+        <ul class="nav-links">
+            <li  ><a href="#"class="ctn-1">HOME</a></li>
+           
+            
+
+            <li ><a href="https://en.wikipedia.org/wiki/Chemosynthesis" class="ctn-1">LEARN MORE</a></li>
+          
+           
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn">
+        </nav>
+       
+<header>
+    <div class="header-content">
+        <h2>EXPLORE THE COLORFULL OCEAN</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+      <a href="./project.html" class="ctn-n">ABOUT OUR PROJECT</a>
+    </div>
+</header>
+
+
+<script>
+    const menuBtn =document.querySelector('.menu-btn')
+    const navlinks =document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+    navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+    
+</body>
+</html>
